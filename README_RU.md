@@ -37,16 +37,16 @@ claude
 1. Проверяет и устанавливает Node.js (v18+) при необходимости
 2. Устанавливает Claude Code глобально через npm
 3. Настраивает Claude Code для пропуска введения
-4. Запрашивает ваш API ключ Moonshot
-5. Настраивает переменные среды для перенаправления API вызовов на серверы Kimi
+4. Запрашивает базовый URL Claude API и ваш API ключ
+5. Настраивает соответствующие переменные среды
 
 ## Ручная конфигурация
 
 Если вы предпочитаете настроить вручную, установите эти переменные среды:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=https://api.example.com/anthropic/
+export ANTHROPIC_API_KEY=ваш_api_ключ
 ```
 
 ## Поддержка
