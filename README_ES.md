@@ -45,8 +45,8 @@ El script de instalación automáticamente:
 Si prefieres configurar manualmente, establece estas variables de entorno:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=<your_provider_base_url>
+export ANTHROPIC_API_KEY=<your_api_key_here>
 ```
 
 ## Soporte

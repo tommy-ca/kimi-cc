@@ -45,8 +45,8 @@ claude
 수동으로 구성하려면 다음 환경 변수를 설정하세요:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=<your_provider_base_url>
+export ANTHROPIC_API_KEY=<your_api_key_here>
 ```
 
 ## 지원

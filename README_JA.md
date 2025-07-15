@@ -45,8 +45,8 @@ claude
 手動で構成したい場合は、以下の環境変数を設定してください：
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=<your_provider_base_url>
+export ANTHROPIC_API_KEY=<your_api_key_here>
 ```
 
 ## サポート
