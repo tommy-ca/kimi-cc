@@ -37,16 +37,16 @@ claude
 1. Node.js（v18+）をチェックし、必要に応じてインストール
 2. npmを介してClaude Codeをグローバルにインストール
 3. オンボーディングをスキップするようにClaude Codeを構成
-4. Moonshot API keyの入力を促す
-5. API呼び出しをKimiのサーバーにリダイレクトする環境変数を設定
+4. Claude APIプロバイダーのベースURLとAPI keyを入力するよう促す
+5. 環境変数を適切に設定
 
 ## 手動構成
 
 手動で構成したい場合は、以下の環境変数を設定してください：
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=https://api.example.com/anthropic/
+export ANTHROPIC_API_KEY=your_api_key_here
 ```
 
 ## サポート

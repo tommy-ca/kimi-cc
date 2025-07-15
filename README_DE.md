@@ -37,16 +37,16 @@ Das Installationsskript führt automatisch aus:
 1. Überprüft und installiert Node.js (v18+) bei Bedarf
 2. Installiert Claude Code global über npm
 3. Konfiguriert Claude Code, um das Onboarding zu überspringen
-4. Fordert Ihren Moonshot-API-Schlüssel an
-5. Richtet Umgebungsvariablen ein, um API-Aufrufe an Kimis Server umzuleiten
+4. Fragt nach der Basis-URL des Claude-API-Anbieters und Ihrem API-Schlüssel
+5. Richtet entsprechende Umgebungsvariablen ein
 
 ## Manuelle Konfiguration
 
 Wenn Sie manuell konfigurieren möchten, setzen Sie diese Umgebungsvariablen:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic/
-export ANTHROPIC_API_KEY=your_moonshot_api_key_here
+export ANTHROPIC_BASE_URL=https://api.beispiel.de/anthropic/
+export ANTHROPIC_API_KEY=dein_api_schluessel
 ```
 
 ## Support
